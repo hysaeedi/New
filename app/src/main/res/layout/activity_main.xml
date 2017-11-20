@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hysaeedi.afinal.MainActivity">
+
+    <Button
+        android:id="@+id/newresultbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="194dp"
+        android:text="add new result" />
+
+    <Button
+        android:id="@+id/resviewbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="view all"
+        android:layout_below="@+id/newresultbt"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/ressearchbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/resviewbt"
+        android:layout_below="@+id/resviewbt"
+        android:layout_marginTop="56dp"
+        android:text="Search" />
+</RelativeLayout>
